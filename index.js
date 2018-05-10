@@ -17,10 +17,13 @@ Array.prototype.split = function (count) {
   return response;
 }
 module.exports = async (array, count, fn) => {
-  let temp = array.split(count);
-  temp.map(async (splitArray) => {
-    for (let i = 0; i < splitArray.length; i++) {
-      await fn(splitArray[i])
-    }
+  return new Promise(function (resolve, reject) {
+    let temp = array.split(count);
+    temp.map(async (splitArray) => {
+      for (let i = 0; i < splitArray.length; i++) {
+        await fn(splitArray[i])
+      }
+    });
+    resolve();
   });
 }
