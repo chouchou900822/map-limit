@@ -1,0 +1,22 @@
+{
+  "name": "map-limit",
+  "version": "1.0.0",
+  "description": "koa/async/await limit map count",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/index.js"
+  },
+  "keywords": [
+    "map",
+    "limit",
+    "koa",
+    "async",
+    "await"
+  ],
+  "author": "edison",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.1.1",
+    "should": "^13.2.1"
+  }
+}
