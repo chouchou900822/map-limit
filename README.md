@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-$ npm install maplimit
+$ npm install koa-map-limit
 ```
 
 ```javascript
@@ -11,7 +11,7 @@ mapLimit(arr, limit, async callback)
 ```
 
 ```javascript
-const mapLimit = require('maplimit');
+const mapLimit = require('koa-map-limit');
 let array = [],
     i = 0;
 while (i < 100) {

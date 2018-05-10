@@ -1,5 +1,5 @@
 {
-  "name": "maplimit",
+  "name": "koa-map-limit",
   "version": "1.0.1",
   "description": "koa/async/await limit map count",
   "main": "index.js",
