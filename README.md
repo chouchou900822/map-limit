@@ -3,11 +3,15 @@
 ## Installation
 
 ```sh
-$ npm install map-limit
+$ npm install maplimit
 ```
 
 ```javascript
-const mapLimit = require('map-limit');
+mapLimit(arr, limit, async callback)
+```
+
+```javascript
+const mapLimit = require('maplimit');
 let array = [],
     i = 0;
 while (i < 100) {
