@@ -20,7 +20,6 @@ module.exports = async (array, count, fn) => {
   let temp = array.split(count);
   await Promise.all(temp.map(async (splitArray) => {
     for (let i = 0; i < splitArray.length; i++) {
-      console.log(splitArray[i]);
       await fn(splitArray[i])
     }
   }));
