@@ -1,6 +1,6 @@
 {
   "name": "koa-map-limit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "koa/async/await limit map count",
   "main": "index.js",
   "scripts": {
