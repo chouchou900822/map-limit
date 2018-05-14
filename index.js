@@ -18,9 +18,11 @@ Array.prototype.split = function (count) {
 }
 module.exports = async (array, count, fn) => {
   let temp = array.split(count);
+  let res = [];
   await Promise.all(temp.map(async (splitArray) => {
     for (let i = 0; i < splitArray.length; i++) {
-      await fn(splitArray[i])
+      res.push(await fn(splitArray[i]))
     }
   }));
+  return res;
 }
