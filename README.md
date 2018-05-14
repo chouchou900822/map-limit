@@ -1,6 +1,8 @@
+# koa-map-limit
+
 [![Build Status](https://travis-ci.org/chouchou900822/map-limit.svg?branch=master)](https://travis-ci.org/chouchou900822/map-limit)
 
-### The same as map but runs a maximum of limit operations at the same time use await/yield
+The same as map but runs a maximum of limit operations at the same time use await/yield
 
 ## Installation
 
@@ -31,13 +33,14 @@ let reuslt = await mapLimit(array, 10, async (item) => {
 });
 ```
 
-
-# 中文
-
-### 用 await/yield 的时候控制并发数量
-
 ## test
 
 ```sh
 $ npm test
 ```
+
+
+# 中文
+
+### 用 await/yield 的时候控制并发数量
+
