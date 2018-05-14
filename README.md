@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/yaonie084/map-limit.svg?branch=master)](https://travis-ci.org/yaonie084/map-limit)
+[![Build Status](https://travis-ci.org/chouchou900822/map-limit.svg?branch=master)](https://travis-ci.org/chouchou900822/map-limit)
 
 ### koa/async/await下控制并发数量
 
